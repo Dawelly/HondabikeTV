@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hondabike</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="movies">Movies</string>
+    <string name="tv_show">TV Show</string>
+    <string name="sport">Sport</string>
+    <string name="settings">Settings</string>
+    <string name="languages">Languages</string>
+    <string name="genres">Genres</string>
+    <string name="tv_show_fragment">TV Show Fragment</string>
+</resources>

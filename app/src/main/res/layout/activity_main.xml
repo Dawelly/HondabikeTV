@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bgcov"
+        android:nextFocusRight="@id/bflNavBar" />
+
+    <androidx.leanback.widget.BrowseFrameLayout
+        android:id="@+id/bflNavBar"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:nextFocusLeft="@id/container"
+        android:backgroundTint="#0C0909">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:backgroundTint="@color/color_white">
+
+
+
+            <ImageView
+                android:id="@+id/btn_home"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/selector_menu"
+                android:src="@drawable/ic_home"
+                android:scaleType="centerInside"
+                android:focusable="true"
+                android:gravity="center"
+                android:textColor="@color/text_selector_white_grey" />
+
+            <ImageView
+                android:id="@+id/btn_movies"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/selector_menu"
+                android:src="@drawable/ic_honda"
+                android:focusable="true"
+                android:gravity="center"
+                android:textColor="@color/text_selector_white_grey" />
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.leanback.widget.BrowseFrameLayout>
+
+</merge>
